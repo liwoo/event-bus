@@ -1,9 +1,9 @@
 # Event Bus
-This is an example of how you can use **topic-based** messaging in your Microservices using [RabbitMQ]("https://www.rabbitmq.com/tutorials/tutorial-five-dotnet.html") in [.NET Core]("https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-3.1&tabs=linux").
+This is an example of how you can use **topic-based** messaging in your Microservices using [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-five-dotnet.html) in [.NET Core](https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-3.1&tabs=linux).
 
-You will find 3 [Worker Services]("https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio") called **Basket**, **Order** and **Shipping**, in the following topology:
+You will find 3 [Worker Services](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio) called **Basket**, **Order** and **Shipping**, in the following topology:
 
-![alt Topology]("./topology.png")
+![alt Topology](https://github.com/liwoo/event-bus/blob/master/docs/topology.png?raw=true)
 
 In this case, the Basket publishes to a topic events that could be _created_, _updated_ or _deleted_.
 
